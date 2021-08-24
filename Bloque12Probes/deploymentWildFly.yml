@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: wildfly
-        image: inigoserrano/cursokuberneteswildfly:latest
+        image: j6linares/cursokuberneteswildfly:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
