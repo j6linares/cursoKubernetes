@@ -15,7 +15,7 @@ spec:
     spec:
       containers: 
       - name: mariadb
-        image: inigoserrano/cursokubernetesmariadb:latest
+        image: j6linares/cursokubernetesmariadb:latest
         ports:
         - containerPort: 3306
         resources:
